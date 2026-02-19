@@ -5,7 +5,8 @@ Location: /glade/u/home/zke3/micromamba/envs/feds_py39
 Created: Feb 2026  
 
 ## Step 1 — Create environment
-
+module load conda
+conda install -n base -c conda-forge mamba
 mamba create -n feds_py39 -c conda-forge \
   python=3.9 \
   numpy=1.21 \
