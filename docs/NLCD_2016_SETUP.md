@@ -29,10 +29,14 @@ nlcd_2016_land_cover_l48_20190424.img
 ---
 
 ## Step 4 — Convert to GeoTIFF
+screen
+screen -ls
 
 module load gdal
 
-gdal_translate nlcd_2016_land_cover_l48_20190424.img nlcd_full.tif
+gdal_translate NLCD_2016_Land_Cover_L48_20190424.img nlcd_full.tif
+
+ctrl+A ctrl+D
 
 ---
 
